@@ -14,7 +14,6 @@ button_two.onclick = () => {
     if (number > 0) {
         number--
         count.innerHTML = number
-
     }
 }
 
@@ -23,7 +22,6 @@ button_three.onclick = () => {
     if (number >= 0 || number <= 10) {
         number = 0
         count.innerHTML = number
-
     }
 }
 
@@ -31,5 +29,4 @@ let button_four = document.querySelector('.button4')
 button_four.onclick = () => {
     number = Math.round(Math.random()*10)
     count.innerHTML = number
-
 }
