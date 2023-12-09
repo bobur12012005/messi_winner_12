@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.25s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+    transition: 0.25s ease;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkblue;
+}
+
+.box {
+    height: 400px;
+    width: 600px;
+    background-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.221) 10px 10px 5px;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inner_top_box {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+}
+
+.inner_box {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button1 {
+    height: 65px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    height: 65px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3 {
+    height: 65px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button4 {
+    height: 65px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
