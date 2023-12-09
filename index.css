@@ -13,16 +13,25 @@ img {
 button {
     border: none;
     cursor: pointer;
+    height: 65px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
     transform: scale(1.05);
     transition: 0.25s ease;
+    box-shadow: 3px 3px 3px;
 }
 
 button:active {
     transform: scale(0.95);
     transition: 0.25s ease;
+    box-shadow: none;
 }
 
 body {
@@ -55,6 +64,7 @@ body {
     font-size: 200px;
     font-weight: bold;
     color: white;
+    text-shadow: 3px 3px 3px black;
 }
 
 .inner_box {
@@ -65,44 +75,7 @@ body {
     align-items: center;
 }
 
-.button1 {
-    height: 65px;
-    width: 100px;
-    background-color: aqua;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button2 {
-    height: 65px;
-    width: 100px;
-    background-color: aqua;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button3 {
-    height: 65px;
-    width: 100px;
-    background-color: aqua;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .button4 {
-    height: 65px;
-    width: 100px;
-    background-color: aqua;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: bold;
     font-size: 25px;
 }

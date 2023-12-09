@@ -27,6 +27,6 @@ button_three.onclick = () => {
 
 let button_four = document.querySelector('.button4')
 button_four.onclick = () => {
-    number = Math.round(Math.random()*10)
+    number = Math.ceil(Math.random()*10)
     count.innerHTML = number
 }
